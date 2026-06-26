@@ -1,0 +1,605 @@
+
+```
+portfolio/
+│
+├── index.html
+├── style.css
+└── script.js
+```
+
+## Features Included
+
+✅ Modern dark theme with neon accents
+✅ Responsive design
+✅ Glassmorphism effects
+✅ Animated hero section
+✅ Sticky navigation
+✅ Typing animation
+✅ Skills progress bars
+✅ Portfolio cards
+✅ Experience timeline
+✅ Testimonials
+✅ Contact form
+✅ Particle background
+✅ Loading animation
+✅ Back-to-top button
+✅ Smooth scrolling
+✅ SEO optimized structure
+
+---
+
+## File: `index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vishmitha Firezz | Full Stack Web Developer</title>
+<meta name="description"
+content="Professional portfolio website of Vishmitha Firezz, Full Stack Web Developer.">
+
+<meta property="og:title"
+content="Vishmitha Firezz Portfolio">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="loader">
+    <div class="spinner"></div>
+</div>
+
+<nav class="navbar">
+    <div class="logo">Vishmitha Firezz</div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero" id="home">
+
+    <div class="particles"></div>
+
+    <div class="hero-content">
+
+        <h3>Hello, I'm</h3>
+
+        <h1>Vishmitha Firezz</h1>
+
+        <h2>
+            <span id="typing"></span>
+        </h2>
+
+        <p>
+            I create modern, responsive,
+            and high-performance web experiences.
+        </p>
+
+        <div class="buttons">
+            <a href="#portfolio" class="btn">
+                View Projects
+            </a>
+
+            <a href="#contact" class="btn">
+                Contact Me
+            </a>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <div class="profile"></div>
+    </div>
+
+</section>
+
+<section id="about" class="about">
+
+    <h2>About Me</h2>
+
+    <p>
+        Passionate Full Stack Web Developer specializing
+        in modern web applications, UI/UX design,
+        and scalable backend systems.
+    </p>
+
+    <div class="stats">
+
+        <div class="card">
+            <h3>5+</h3>
+            <p>Years Experience</p>
+        </div>
+
+        <div class="card">
+            <h3>120+</h3>
+            <p>Projects</p>
+        </div>
+
+        <div class="card">
+            <h3>80+</h3>
+            <p>Happy Clients</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skill">
+    <span>HTML5</span>
+    <div class="bar">
+        <div style="width:95%"></div>
+    </div>
+</div>
+
+<div class="skill">
+    <span>CSS3</span>
+    <div class="bar">
+        <div style="width:92%"></div>
+    </div>
+</div>
+
+<div class="skill">
+    <span>JavaScript</span>
+    <div class="bar">
+        <div style="width:90%"></div>
+    </div>
+</div>
+
+<div class="skill">
+    <span>React</span>
+    <div class="bar">
+        <div style="width:85%"></div>
+    </div>
+</div>
+
+<div class="skill">
+    <span>Node.js</span>
+    <div class="bar">
+        <div style="width:82%"></div>
+    </div>
+</div>
+
+<div class="skill">
+    <span>PHP</span>
+    <div class="bar">
+        <div style="width:88%"></div>
+    </div>
+</div>
+
+<div class="skill">
+    <span>MySQL</span>
+    <div class="bar">
+        <div style="width:86%"></div>
+    </div>
+</div>
+
+<div class="skill">
+    <span>UI/UX Design</span>
+    <div class="bar">
+        <div style="width:90%"></div>
+    </div>
+</div>
+
+</section>
+
+<section id="services">
+
+<h2>Services</h2>
+
+<div class="grid">
+
+<div class="card">Website Development</div>
+<div class="card">Frontend Development</div>
+<div class="card">Backend Development</div>
+<div class="card">Responsive Design</div>
+<div class="card">UI/UX Design</div>
+<div class="card">Website Optimization</div>
+
+</div>
+
+</section>
+
+<section id="portfolio">
+
+<h2>Portfolio Projects</h2>
+
+<div class="grid">
+
+<div class="project">
+    <h3>E-Commerce Website</h3>
+    <p>Modern shopping platform.</p>
+    <button>Live Demo</button>
+    <button>GitHub</button>
+</div>
+
+<div class="project">
+    <h3>Business Website</h3>
+    <p>Professional business solution.</p>
+    <button>Live Demo</button>
+    <button>GitHub</button>
+</div>
+
+<div class="project">
+    <h3>Portfolio Website</h3>
+    <p>Personal branding platform.</p>
+    <button>Live Demo</button>
+    <button>GitHub</button>
+</div>
+
+<div class="project">
+    <h3>Dashboard Application</h3>
+    <p>Analytics dashboard.</p>
+    <button>Live Demo</button>
+    <button>GitHub</button>
+</div>
+
+<div class="project">
+    <h3>Landing Page Design</h3>
+    <p>Marketing conversion page.</p>
+    <button>Live Demo</button>
+    <button>GitHub</button>
+</div>
+
+<div class="project">
+    <h3>Restaurant Website</h3>
+    <p>Restaurant management site.</p>
+    <button>Live Demo</button>
+    <button>GitHub</button>
+</div>
+
+</div>
+
+</section>
+
+<section id="experience">
+
+<h2>Experience Timeline</h2>
+
+<div class="timeline">
+    <div>Junior Web Developer</div>
+    <div>Frontend Developer</div>
+    <div>Full Stack Developer</div>
+    <div>Freelance Developer</div>
+</div>
+
+</section>
+
+<section id="testimonials">
+
+<h2>Testimonials</h2>
+
+<div class="grid">
+
+<div class="card">
+⭐⭐⭐⭐⭐
+<p>Excellent developer!</p>
+</div>
+
+<div class="card">
+⭐⭐⭐⭐⭐
+<p>Outstanding work quality.</p>
+</div>
+
+<div class="card">
+⭐⭐⭐⭐⭐
+<p>Highly recommended.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+<form>
+
+<input type="text" placeholder="Name">
+
+<input type="email" placeholder="Email">
+
+<input type="text" placeholder="Subject">
+
+<textarea placeholder="Message"></textarea>
+
+<button>Send Message</button>
+
+</form>
+
+<div class="contact-info">
+<p>Email: contact@example.com</p>
+<p>Phone: +94 XX XXX XXXX</p>
+<p>Location: Sri Lanka</p>
+</div>
+
+</section>
+
+<footer>
+    <p>
+        © 2026 Vishmitha Firezz.
+        All Rights Reserved.
+    </p>
+</footer>
+
+<button id="topBtn">↑</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
+
+---
+
+## File: `style.css`
+
+```css
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#080b14;
+    color:#fff;
+}
+
+.navbar{
+    position:fixed;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    padding:20px 50px;
+    background:rgba(0,0,0,.5);
+    backdrop-filter:blur(10px);
+    z-index:1000;
+}
+
+.navbar ul{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:100px 10%;
+}
+
+.hero h1{
+    font-size:60px;
+    color:#00eaff;
+}
+
+.btn{
+    display:inline-block;
+    margin:10px;
+    padding:12px 25px;
+    border-radius:30px;
+    background:#00eaff;
+    color:#000;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-5px);
+}
+
+.profile{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    background:linear-gradient(
+        45deg,
+        #00eaff,
+        #8a2be2
+    );
+}
+
+section{
+    padding:100px 10%;
+}
+
+.stats,
+.grid{
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card,
+.project{
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(15px);
+    padding:25px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.card:hover,
+.project:hover{
+    transform:translateY(-10px);
+}
+
+.skill{
+    margin:20px 0;
+}
+
+.bar{
+    height:10px;
+    background:#222;
+    border-radius:20px;
+}
+
+.bar div{
+    height:100%;
+    background:#00eaff;
+    border-radius:20px;
+    animation:grow 2s;
+}
+
+@keyframes grow{
+    from{width:0}
+}
+
+.timeline div{
+    margin:20px;
+    padding:20px;
+    border-left:3px solid #00eaff;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input,
+textarea{
+    padding:15px;
+    border:none;
+    border-radius:10px;
+}
+
+button{
+    padding:15px;
+    cursor:pointer;
+}
+
+.loader{
+    position:fixed;
+    width:100%;
+    height:100%;
+    background:#000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:9999;
+}
+
+.spinner{
+    width:60px;
+    height:60px;
+    border:5px solid #333;
+    border-top:5px solid #00eaff;
+    border-radius:50%;
+    animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+#topBtn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    padding:15px;
+    display:none;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+}
+```
+
+---
+
+## File: `script.js`
+
+```javascript
+window.addEventListener("load",()=>{
+    document.querySelector(".loader").style.display="none";
+});
+
+const text =
+"Full Stack Web Developer";
+
+let i=0;
+
+function type(){
+    if(i<text.length){
+        document.getElementById("typing")
+        .innerHTML += text.charAt(i);
+        i++;
+        setTimeout(type,100);
+    }
+}
+
+type();
+
+const topBtn =
+document.getElementById("topBtn");
+
+window.onscroll=()=>{
+    if(window.scrollY>500){
+        topBtn.style.display="block";
+    }else{
+        topBtn.style.display="none";
+    }
+};
+
+topBtn.onclick=()=>{
+    window.scrollTo({
+        top:0,
+        behavior:"smooth"
+    });
+};
+
+const observer =
+new IntersectionObserver(entries=>{
+    entries.forEach(entry=>{
+        if(entry.isIntersecting){
+            entry.target.style.opacity=1;
+            entry.target.style.transform=
+            "translateY(0)";
+        }
+    });
+});
+
+document.querySelectorAll(
+".card,.project"
+).forEach(el=>{
+    el.style.opacity=0;
+    el.style.transform=
+    "translateY(50px)";
+    observer.observe(el);
+});
+```
+
+
